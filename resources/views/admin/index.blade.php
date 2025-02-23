@@ -21,14 +21,14 @@
             </div>
         </div>
         <div class="row gy-4 mb-4">
-            <div class="col-xl-3 col-lg-6 col-md-12 col-12">
+            <div class="col-xl-4 col-lg-6 col-md-12 col-12">
                 <!-- Card -->
                 <div class="card">
                     <!-- Card body -->
                     <div class="card-body d-flex flex-column gap-3">
                         <div class="d-flex align-items-center justify-content-between lh-1">
                             <div>
-                                <span class="fs-6 text-uppercase fw-semibold ls-md">Utilisateurs</span>
+                                <span class="fs-6 text-uppercase fw-semibold ls-md">Gestion des offres</span>
                             </div>
                             <div>
                                 <span class="fe fe-shopping-bag fs-3 text-primary"></span>
@@ -46,14 +46,14 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-6 col-md-12 col-12">
+            <div class="col-xl-4 col-lg-6 col-md-12 col-12">
                 <!-- Card -->
                 <div class="card">
                     <!-- Card body -->
                     <div class="card-body d-flex flex-column gap-3">
                         <div class="d-flex align-items-center justify-content-between lh-1">
                             <div>
-                                <span class="fs-6 text-uppercase fw-semibold ls-md">Transactions</span>
+                                <span class="fs-6 text-uppercase fw-semibold ls-md">Gestion des utilisateurs</span>
                             </div>
                             <div>
                                 <span class="fe fe-book-open fs-3 text-primary"></span>
@@ -68,7 +68,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-6 col-md-12 col-12">
+            <div class="col-xl-4 col-lg-6 col-md-12 col-12">
                 <!-- Card -->
                 <div class="card">
                     <!-- Card body -->
@@ -88,32 +88,6 @@
                                     <i class="fe fe-trending-up me-1"></i>
                                     +1200
                                 </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-12 col-12">
-                <!-- Card -->
-                <div class="card">
-                    <!-- Card body -->
-                    <div class="card-body d-flex flex-column gap-3">
-                        <div class="d-flex align-items-center justify-content-between lh-1">
-                            <div>
-                                <span class="fs-6 text-uppercase fw-semibold ls-md">Echanges</span>
-                            </div>
-                            <div>
-                                <span class="fe fe-user-check fs-3 text-primary"></span>
-                            </div>
-                        </div>
-                        <div class="d-flex flex-column gap-1">
-                            <h2 class="fw-bold mb-0">22,786</h2>
-                            <div class="d-flex flex-row gap-1">
-                                <span class="text-success fw-semibold">
-                                    <i class="fe fe-trending-up me-1"></i>
-                                    +200
-                                </span>
-                                <span class="ms-1 fw-medium">Instructor</span>
                             </div>
                         </div>
                     </div>

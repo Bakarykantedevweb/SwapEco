@@ -25,37 +25,25 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link  collapsed " href="#">
-                    <i class="nav-icon fe fe-book me-2"></i>
-                    Categorie
+                    <i class="nav-icon fe fe-users me-2"></i>
+                    Utilisateurs
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link  collapsed " href="#">
                     <i class="nav-icon fe fe-book me-2"></i>
-                    Cours
+                    Gestions des offres
                 </a>
             </li>
             <!-- Nav item -->
             <li class="nav-item">
-                <a class="nav-link  collapsed " href="#" data-bs-toggle="collapse"
-                    data-bs-target="#navProfile" aria-expanded="false" aria-controls="navProfile">
+                <a class="nav-link  collapsed " href="#">
                     <i class="nav-icon fe fe-user me-2"></i>
-                    User
+                    Profile
                 </a>
-                <div id="navProfile" class="collapse " data-bs-parent="#sideNavbar">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link " href="admin-instructor.html">Instructor</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="admin-students.html">Students</a>
-                        </li>
-                    </ul>
-                </div>
             </li>
-
             <!-- Nav item -->
-            <li class="nav-item">
+            {{-- <li class="nav-item">
                 <a class="nav-link  collapsed " href="#" data-bs-toggle="collapse"
                     data-bs-target="#navCMS" aria-expanded="false" aria-controls="navCMS">
                     <i class="nav-icon fe fe-book-open me-2"></i>
@@ -457,19 +445,7 @@
                     Changelog
                     <span class="text-primary ms-1" id="changelog"></span>
                 </a>
-            </li>
+            </li> --}}
         </ul>
-        <!-- Card -->
-        <div class="card bg-dark-primary shadow-none text-center mx-4 my-8 border-0">
-            <div class="card-body py-6">
-                <img src="assets/images/background/giftbox.png" alt="" />
-                <div class="mt-4">
-                    <h5 class="text-white">Unlimited Access</h5>
-                    <p class="text-white-50 fs-6">Upgrade your plan from a Free trial, to select ‘Business
-                        Plan’. Start Now</p>
-                    <a href="#" class="btn btn-white btn-sm mt-2">Upgrade Now</a>
-                </div>
-            </div>
-        </div>
     </div>
 </nav>
