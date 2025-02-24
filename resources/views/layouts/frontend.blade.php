@@ -166,86 +166,23 @@
                         <li class="nav-item dropdown dropdown-hover">
                             <a class="nav-link" href="javascript:void(0)" id="homedrop" role="button"
                                 data-bs-toggle="dropdown">
-                                Acceuil <div class="arrow-down"></div>
+                                Acceuil
                             </a>
                         </li>
-                        <li class="nav-item dropdown dropdown-hover">
-                            <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button"
-                                data-bs-toggle="dropdown">
-                                Company <div class="arrow-down"></div>
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
-                                <li><a class="dropdown-item" href="about.html">About Us</a></li>
-                                <li><a class="dropdown-item" href="services.html">Services</a></li>
-                                <li><a class="dropdown-item" href="team.html">Team</a></li>
-                                <li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
-                                <a class="dropdown-item" href="privacy-policy.html">Priacy & Policy</a>
-                                <li><a class="dropdown-item" href="faqs.html">Faqs</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown dropdown-hover">
-                            <a class="nav-link" href="javascript:void(0)" id="pagesdoropdown" role="button"
-                                data-bs-toggle="dropdown">
-                                Pages
-                                <div class="arrow-down"></div>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-center"
-                                aria-labelledby="pagesdoropdown">
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <span class="dropdown-header">Jobs</span>
-                                        <div>
-                                            <a class="dropdown-item" href="job-list.html">Job List</a>
-                                            <a class="dropdown-item" href="job-list-2.html">Job List-2</a>
-                                            <a class="dropdown-item" href="job-grid.html">Job Grid</a>
-                                            <a class="dropdown-item" href="job-grid-2.html">Job Grid-2</a>
-                                            <a class="dropdown-item" href="job-details.html">Job Details</a>
-                                            <a class="dropdown-item" href="job-categories.html">Jobs Categories</a>
-                                        </div>
-                                    </div><!--end col-->
-                                    <div class="col-lg-4">
-                                        <span class="dropdown-header">Candidates / Companys</span>
-                                        <div>
-                                            <a class="dropdown-item" href="candidate-list.html">Candidate List</a>
-                                            <a class="dropdown-item" href="candidate-grid.html">Candidate Grid</a>
-                                            <a class="dropdown-item" href="candidate-details.html">Candidate
-                                                Details</a>
-                                            <a class="dropdown-item" href="company-list.html">Company List</a>
-                                            <a class="dropdown-item" href="company-details.html">Company Details</a>
-                                        </div>
-                                    </div><!--end col-->
-                                    <div class="col-lg-4">
-                                        <span class="dropdown-header">Extra Pages</span>
-                                        <div>
-                                            <a class="dropdown-item" href="sign-up.html">Sign Up</a>
-                                            <a class="dropdown-item" href="sign-in.html">Sign In</a>
-                                            <a class="dropdown-item" href="sign-out.html">Sign Out</a>
-                                            <a class="dropdown-item" href="reset-password.html">Reset Password</a>
-                                            <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
-                                            <a class="dropdown-item" href="404-error.html">404 Error</a>
-                                            <a class="dropdown-item" href="components.html">Components</a>
-                                        </div>
-                                    </div><!--end col-->
-                                </div>
-                            </div>
-                        </li><!--end dropdown-->
-                        <li class="nav-item dropdown dropdown-hover">
-                            <a class="nav-link" href="javascript:void(0)" id="productdropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Blog
-                                <div class="arrow-down"></div>
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="productdropdown">
-                                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
-                                <li><a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
-                                <li><a class="dropdown-item" href="blog-modern.html">Blog Modern</a></li>
-                                <li><a class="dropdown-item" href="blog-masonry.html">Blog Masonry</a></li>
-                                <li><a class="dropdown-item" href="blog-details.html">Blog details</a></li>
-                                <li><a class="dropdown-item" href="blog-author.html">Blog Author</a></li>
-                            </ul>
-                        </li><!--end dropdown-->
                         <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
+                            <a href="#" class="nav-link">Offres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Creer un compte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Connexion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
                         </li>
                     </ul><!--end navbar-nav-->
                 </div>
