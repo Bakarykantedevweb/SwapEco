@@ -176,13 +176,17 @@
                             <a href="#" class="nav-link">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Creer un compte</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Connexion</a>
-                        </li>
-                        <li class="nav-item">
                             <a href="#" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown dropdown-hover">
+                            <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button" data-bs-toggle="dropdown">
+                                Creer un compte <div class="arrow-down"></div>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
+                                <li><a class="dropdown-item" href="{{ url('entreprise/register') }}">Eco Entreprise</a></li>
+                                <li><a class="dropdown-item" href="#">Eco Contibuteur</a></li>
+                                <li><a class="dropdown-item" href="#">Promoteur</a></li>
+                            </ul>
                         </li>
                     </ul><!--end navbar-nav-->
                 </div>
@@ -508,6 +512,7 @@
 
     <!-- App JS -->
     <script src="{{ asset('front/assets/js/app.js') }}"></script>
+    
 
 </body>
 

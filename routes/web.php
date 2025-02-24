@@ -23,6 +23,10 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+// Authentification Entreprise
+Route::get('/entreprise/register', [App\Http\Controllers\Entreprise\Auth\RegisterController::class, 'showRegistrationForm']);
+Route::get('/entreprise/login', [App\Http\Controllers\Entreprise\Auth\LoginController::class, 'showLoginForm']);
+
 Route::prefix('admin')->middleware(['auth'])->group(function(){
 
     Route::controller(DashboardController::class)->group(function(){
