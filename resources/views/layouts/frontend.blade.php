@@ -184,8 +184,8 @@
                             </a>
                             <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
                                 <li><a class="dropdown-item" href="{{ url('entreprise/register') }}">Eco Entreprise</a></li>
-                                <li><a class="dropdown-item" href="#">Eco Contibuteur</a></li>
-                                <li><a class="dropdown-item" href="#">Promoteur</a></li>
+                                <li><a class="dropdown-item" href="{{ route('contributeur.login') }}">Eco Contibuteur</a></li>
+                                <li><a class="dropdown-item" href="{{ route('promoteur.login') }}">Promoteur</a></li>
                             </ul>
                         </li>
                     </ul><!--end navbar-nav-->
@@ -512,7 +512,7 @@
 
     <!-- App JS -->
     <script src="{{ asset('front/assets/js/app.js') }}"></script>
-    
+
 
 </body>
 

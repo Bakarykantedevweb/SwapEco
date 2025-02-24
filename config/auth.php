@@ -40,6 +40,14 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+        'eco_contributeur' => [
+            'driver' => 'session',
+            'provider' => 'eco_contributeurs',
+        ],
+        'promoteur' => [
+            'driver' => 'session',
+            'provider' => 'promoteurs',
+        ],
     ],
 
     /*
@@ -63,6 +71,14 @@ return [
         'users' => [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
+        ],
+        'eco_contributeurs' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\EcoContributeur::class,
+        ],
+        'promoteurs' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Promoteur::class,
         ],
 
         // 'users' => [
