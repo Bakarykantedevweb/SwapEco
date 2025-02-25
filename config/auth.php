@@ -40,6 +40,18 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+        'entreprise' => [
+            'driver' => 'session',
+            'provider' => 'entreprises',
+        ],
+        'eco_contributeur' => [
+            'driver' => 'session',
+            'provider' => 'eco_contributeurs',
+        ],
+        'promoteur' => [
+            'driver' => 'session',
+            'provider' => 'promoteurs',
+        ],
     ],
 
     /*

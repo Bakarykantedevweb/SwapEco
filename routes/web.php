@@ -1,8 +1,16 @@
 <?php
 
-use App\Http\Controllers\Admin\DashboardController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Entreprise\TypeOffreController;
+use App\Http\Controllers\Entreprise\DashboardEntrepriseController;
+use App\Http\Controllers\EcoContributeur\DashboardController as EcoContributeurDashboardController;
+use App\Http\Controllers\EcoContributeur\Auth\LoginController as EcoContributeurLoginController;
+use App\Http\Controllers\EcoContributeur\Auth\RegisterController as EcoContributeurRegisterController;
+use App\Http\Controllers\Promoteur\DashboardController as PromoteurDashboardController;
+use App\Http\Controllers\Promoteur\Auth\LoginController as PromoteurLoginController;
+use App\Http\Controllers\Promoteur\Auth\RegisterController as PromoteurRegisterController;
 
 /*
 |--------------------------------------------------------------------------
