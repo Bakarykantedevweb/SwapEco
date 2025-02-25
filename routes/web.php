@@ -64,7 +64,7 @@ Route::prefix('contributeur')->middleware('auth:eco_contributeur')->group(functi
 Route::controller(PromoteurLoginController::class)->group(function(){
     Route::get('promoteur/login','index')->name('promoteur.login');
     Route::post('promoteur/login','login')->name('promoteur.login.post');
-    Route::post('contributeur/logout','logout')->name('promoteur.logout');
+    Route::post('promoteur/logout','logout')->name('promoteur.logout');
 });
 
 Route::controller(PromoteurRegisterController::class)->group(function(){
