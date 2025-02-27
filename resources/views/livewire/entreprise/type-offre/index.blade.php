@@ -24,9 +24,9 @@
             </div>
         </div>
         <div class="mb-3">
-            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newCatgory">Add New
-              Category</a>
-          </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newCatgory">Ajouter Type
+                Offre</a>
+        </div>
         <div class="row">
             <!-- basic table -->
             <div class="col-md-12 col-12">
@@ -44,20 +44,18 @@
                                         <th>ID</th>
                                         <th>Nom</th>
                                         <th>Modifier</th>
-                                        <th>Supprimer</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Test</td>
-                                        <td>
-                                            <button type="button" class="btn btn-primary btn-sm">Modifier</button>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-danger btn-sm" >Supprimer</button>
-                                        </td>
-                                    </tr>
+                                    @foreach ($typeOffres as $typeOffre)
+                                        <tr>
+                                            <td>{{ $typeOffre->id }}</td>
+                                            <td>{{ $typeOffre->nom }}</td>
+                                            <td>
+                                                <button type="button" data-bs-toggle="modal" data-bs-target="#newCatgory" wire:click="editTypeOffre({{ $typeOffre->id }})" class="btn btn-primary btn-sm">Modifier</button>
+                                            </td>
+                                        </tr>
+                                    @endforeach
                                 </tbody>
                             </table>
                         </div>

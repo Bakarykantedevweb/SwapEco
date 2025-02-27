@@ -37,7 +37,6 @@
         <!-- Page Content -->
         <main id="page-content">
             @include('layouts.inc.admin.header')
-
             <!-- Page Header -->
             <!-- Container fluid -->
             @yield("content")
