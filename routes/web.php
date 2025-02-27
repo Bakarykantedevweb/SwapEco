@@ -8,6 +8,7 @@ use App\Http\Controllers\Entreprise\DashboardEntrepriseController;
 use App\Http\Controllers\EcoContributeur\DashboardController as EcoContributeurDashboardController;
 use App\Http\Controllers\EcoContributeur\Auth\LoginController as EcoContributeurLoginController;
 use App\Http\Controllers\EcoContributeur\Auth\RegisterController as EcoContributeurRegisterController;
+use App\Http\Controllers\Entreprise\OffreEntrepriseController;
 use App\Http\Controllers\Promoteur\DashboardController as PromoteurDashboardController;
 use App\Http\Controllers\Promoteur\Auth\LoginController as PromoteurLoginController;
 use App\Http\Controllers\Promoteur\Auth\RegisterController as PromoteurRegisterController;
@@ -62,6 +63,10 @@ Route::prefix('entreprise')->middleware(['entreprise.auth'])->group(function(){
 
     Route::controller(TypeOffreController::class)->group(function(){
         Route::get('type-offre','index'); 
+     });
+
+     Route::controller(OffreEntrepriseController::class)->group(function(){
+        Route::get('offre-entreprise','index');
      });
 });
 

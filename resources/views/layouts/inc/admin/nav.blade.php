@@ -29,12 +29,12 @@
                     Utilisateurs
                 </a>
             </li>
-            <li class="nav-item">
+            {{-- <li class="nav-item">
                 <a class="nav-link  collapsed " href="#">
                     <i class="nav-icon fe fe-book me-2"></i>
                     Gestions des offres
                 </a>
-            </li>
+            </li> --}}
             <!-- Nav item -->
             <li class="nav-item">
                 <a class="nav-link  collapsed " href="#">

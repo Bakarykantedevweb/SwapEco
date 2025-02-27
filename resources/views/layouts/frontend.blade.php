@@ -183,7 +183,7 @@
                                 Creer un compte <div class="arrow-down"></div>
                             </a>
                             <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
-                                <li><a class="dropdown-item" href="{{ url('entreprise/register') }}">Eco Entreprise</a></li>
+                                <li><a class="dropdown-item" href="{{ url('entreprise/login') }}">Eco Entreprise</a></li>
                                 <li><a class="dropdown-item" href="{{ route('contributeur.login') }}">Eco Contibuteur</a></li>
                                 <li><a class="dropdown-item" href="{{ route('promoteur.login') }}">Promoteur</a></li>
                             </ul>

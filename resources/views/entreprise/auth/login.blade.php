@@ -101,7 +101,7 @@
                                                             </div>
                                                         </form>
                                                         <div class="mt-4 text-center">
-                                                            <p class="mb-0">Vous n'avez pas de compte ? <a href="{{ url('entrprise/register') }}" class="fw-medium text-white text-decoration-underline"> S'inscrire</a></p>
+                                                            <p class="mb-0">Vous n'avez pas de compte ? <a href="{{ url('entreprise/register') }}" class="fw-medium text-white text-decoration-underline"> S'inscrire</a></p>
                                                         </div>
                                                     </div>
                                                 </div>
